@@ -3,8 +3,12 @@ const shoppingList = ["latte", "biscotti", "pasta", "formaggio"];
 let listElem = document.querySelector(".lista");
 console.log(listElem);
 
-let i = 0
+
+let i = 0;
+let result = "";
 while (i < shoppingList.length) {
-    console.log(`<li>${shoppingList[i]}</li>`);
+    result += `<li>${shoppingList[i]}</li>`
     i++;
 }
+console.log(result);
+listElem.innerHTML = result
