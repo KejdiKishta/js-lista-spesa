@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: green;
+    font-family: sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+h1, .add-article {
+    text-align: center;
+}
+
+.add-article input:first-child {
+    background-color: transparent;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    cursor: text;
+}
+
+.add-article input:last-child {
+    padding: 5px 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+}
+
+.bg-sec {
+    margin: 30px auto 50px;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 20px;
+    width: 60%;
+}
+
+label, input {
+    cursor: pointer;
+}
+
+.lista input {
+    opacity: 0;
+}
+
+[type="checkbox"]:checked + label {
+    color: red;
+    text-decoration: line-through;
+}
+
+li {
+    margin: 10px;
+    padding: 3px;
+}
+
